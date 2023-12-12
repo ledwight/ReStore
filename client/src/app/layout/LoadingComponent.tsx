@@ -1,7 +1,7 @@
 import { Backdrop, Box, CircularProgress, Typography } from "@mui/material";
 
 interface Props {
-    message?: String;
+    message?: string;
 }
 
 export default function LoadingComponent({message = 'Loading...'}: Props) {
